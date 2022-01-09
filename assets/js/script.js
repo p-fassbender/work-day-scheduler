@@ -1,6 +1,5 @@
 var currentTime;
 
-
 function update() {
     // gets the current moment time and adds it to the currentDay paragraph to display on the page
     currentTime = moment().format("MMMM Do YYYY, h:mm:ss a");
