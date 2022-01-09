@@ -59,6 +59,7 @@ function loadSchedule() {
     displaySchedule(eventObjArray);
 }
 
+// displays the scheduled events from eventObjArray
 function displaySchedule() {
     for (let i = 0; i < eventObjArray.length; i++) {
         $("#"+ i).text(eventObjArray[i].eventText);
